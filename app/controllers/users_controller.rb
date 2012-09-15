@@ -1,4 +1,6 @@
 class UsersController < ApplicationController
+  has_many :microposts
+
   # GET /users
   # GET /users.json
   def index
